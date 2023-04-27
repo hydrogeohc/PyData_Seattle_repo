@@ -1,11 +1,8 @@
+import time
 from codecarbon import EmissionsTracker
 
-# Initialize the tracker
 tracker = EmissionsTracker()
-
-# Start tracking emissions
 tracker.start()
-
 # Run your compute-intensive code here
 # e.g., training a machine learning model
 

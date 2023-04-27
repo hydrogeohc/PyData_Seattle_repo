@@ -120,6 +120,9 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# data
+/data
+
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -127,3 +130,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# csv file
+.*csv
+
+# ignore the weight
+. *pth
